@@ -4,6 +4,7 @@ import { contactRouter } from "./contact-router";
 import { messageRouter } from "./message-router";
 import { adminRouter } from "./admin-router";
 import { chatRouter } from "./chat-router";
+import { higgsfieldRouter } from "./higgsfield-router";
 import { createRouter, publicQuery } from "./middleware";
 
 export const appRouter = createRouter({
@@ -14,6 +15,7 @@ export const appRouter = createRouter({
   message: messageRouter,
   admin: adminRouter,
   chat: chatRouter,
+  higgsfield: higgsfieldRouter,
 });
 
 export type AppRouter = typeof appRouter;

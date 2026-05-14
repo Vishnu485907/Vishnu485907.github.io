@@ -7,6 +7,8 @@ module.exports = {
       fontFamily: {
         primary: ["'Inter'", "sans-serif"],
         serif: ["'Instrument Serif'", "serif"],
+        display: ["'Space Grotesk'", "sans-serif"],
+        headline: ["'Bebas Neue'", "cursive"],
       },
       colors: {
         border: "hsl(var(--border))",
